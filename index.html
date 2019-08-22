@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://kit.fontawesome.com/10c628aa26.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Christophe Demey - Portfolio</title>
+</head>
+
+<body>
+    <nav id="navBar">
+        <a href="#Home"><i class="fas fa-home fa-2x" id="FirstIcon" onmouseover="homeText()" onmouseout="blankText()"></i></a>
+        <a href="#Me"><i class="fas fa-user-check fa-2x" id="SecondIcon" onmouseover="whoText()" onmouseout="blankText()"></i></a>
+        <a href="#myWorks"><i class="fas fa-laptop-code fa-2x" id="ThirdIcon" onmouseover="workText()" onmouseout="blankText()"></i></a>
+        <a href="#mySocial"><i class="fas fa-handshake fa-2x" id="FourthIcon" onmouseover="contactText()" onmouseout="blankText()"></i></a>
+        <article>
+            <h3 class="changingText" id="Change"></h3>
+        </article>
+    </nav>
+
+    <article class="Name" id="Home">
+        <h1>CHRISTOPHE DEMEY</h1>
+        <h2>MON PORTFOLIO</h2>
+    </article>
+    
+    <article class="Describe" id="Me">
+        <p>Bonjour, je m'appelle Christophe. Infographiste de part ma scolarité (et première passion), je me suis lancé dans une formation en développement Web depuis peu. Et je compte bien percer dans ce domaine!</p>
+    </article>
+    
+    <article class="Works" id="myWorks">
+        <a class="caseOne" href="https://chrisdemey.github.io/restaurant-css-framework/" target="_blank"></a>
+        <a class="caseTwo" href="https://chrisdemey.github.io/TD2-cssgrid/" target="_blank"></a>
+        <a class="caseThree" href="https://cleobuck.github.io/allezcinev3/" target="_blank"></a>
+        <a class="caseFour" href="https://chrisdemey.github.io/Hitman-site/" target="_blank"></a>
+    </article>
+
+    <article class="Contact" id="mySocial">
+        <a href="https://www.facebook.com/christophe.demey.7"><i class="fab fa-facebook-square fa-4x"></i></a>
+        <a href="https://www.linkedin.com/in/christophe-demey/"><i class="fab fa-linkedin fa-4x"></i></a>
+        <a href="https://github.com/ChrisDemey"><i class="fab fa-github-square fa-4x"></i></a>
+        <a href="https://codepen.io/chrisdemey"><i class="fab fa-codepen fa-4x"></i></a>
+        <a href="https://twitter.com/DemeyChristophe"><i class="fab fa-twitter-square fa-4x"></i></a>
+        <a href="mailto:demey.christophe.dc@gmail.com"><i class="fas fa-envelope-square fa-4x"></i></a>
+    </article>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.scrollie.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
