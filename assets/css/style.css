@@ -196,7 +196,7 @@ article h3, h2, h1 {
       -ms-flex: 0 420px;
           flex: 0 420px;
   height: 200px;
-  background: url("/assets/img/restoImg.jpg");
+  background: url("../img/restoImg.jpg");
   background-position: top;
   background-size: cover;
   margin-bottom: 30px;
@@ -213,7 +213,7 @@ article h3, h2, h1 {
       -ms-flex: 0 420px;
           flex: 0 420px;
   height: 200px;
-  background: url("/assets/img/td2Img.jpg");
+  background: url("../img/td2Img.jpg");
   background-position: top;
   background-size: cover;
   margin-bottom: 30px;
@@ -230,7 +230,7 @@ article h3, h2, h1 {
       -ms-flex: 0 420px;
           flex: 0 420px;
   height: 200px;
-  background: url("/assets/img/allezcineImg.jpg");
+  background: url("../img/allezcineImg.jpg");
   background-position: top;
   background-size: cover;
 }
@@ -246,7 +246,7 @@ article h3, h2, h1 {
       -ms-flex: 0 420px;
           flex: 0 420px;
   height: 200px;
-  background: url("/assets/img/hitmanImg.jpg");
+  background: url("../img/hitmanImg.jpg");
   background-position: top;
   background-size: cover;
 }
