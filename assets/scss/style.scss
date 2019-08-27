@@ -88,6 +88,7 @@ article h3, h2, h1 {
 .Works{
     height: 630px;
     padding-top: 30px;
+    padding-bottom: 30px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -142,6 +143,10 @@ article h3, h2, h1 {
         &:hover{
             cursor: pointer;
         }
+    }
+    section{
+        font-size: 2em;
+        margin-top: 15px;
     }
 }
 
@@ -216,6 +221,10 @@ article h3, h2, h1 {
         .caseOne, .caseTwo, .caseThree, .caseFour{
             margin: 10px;
             height: 160px;
+        }
+        section{
+            font-size: 1em;
+            margin-top: 15px;
         }
     }
 
