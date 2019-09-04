@@ -25,6 +25,7 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    z-index: 5;
     a {
         color: rgba(26, 26, 26, 0.336);
         transition: 0.2s;
@@ -64,7 +65,7 @@ article h3, h2, h1 {
     justify-content: center;
     align-items: center;
     h1{
-        font-size: 3em;
+        font-size: 4em;
         text-align: center;
     }
 }
@@ -209,6 +210,15 @@ article h3, h2, h1 {
     nav .changingText{
         height: 45px;
         font-size: 20px;
+    }
+
+    .Name {
+        h1{
+            font-size: 30px;
+        }
+        h2{
+            font-size: 20px;
+        }
     }
 
     .Describe p{

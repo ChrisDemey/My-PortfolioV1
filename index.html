@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://kit.fontawesome.com/10c628aa26.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Christophe Demey - Portfolio</title>
 </head>
 
@@ -23,34 +24,38 @@
     </nav>
 
     <article class="Name" id="Home">
-        <h1>CHRISTOPHE DEMEY</h1>
-        <h2>MON PORTFOLIO</h2>
+        <h1 data-aos="fade-right" data-aos-duration="1100">CHRISTOPHE DEMEY</h1>
+        <h2 data-aos="fade-left" data-aos-duration="1100">MON PORTFOLIO</h2>
     </article>
     
-    <article class="Describe" id="Me">
+    <article class="Describe" id="Me" data-aos="zoom-in-down" data-aos-duration="1100">
         <p>Bonjour, je m'appelle Christophe. Infographiste de par ma scolarité (et première passion), je me suis lancé dans une formation en développement Web depuis peu. Et je compte bien percer dans ce domaine!</p>
     </article>
     
     <article class="Works" id="myWorks">
-        <a class="caseOne" href="https://chrisdemey.github.io/restaurant-css-framework/" target="_blank"></a>
-        <a class="caseTwo" href="https://chrisdemey.github.io/TD2-cssgrid/" target="_blank"></a>
-        <a class="caseThree" href="https://cleobuck.github.io/allezcinev3/" target="_blank"></a>
-        <a class="caseFour" href="https://chrisdemey.github.io/Hitman-site/" target="_blank"></a>
+        <a data-aos="fade-down-right" data-aos-duration="1100" class="caseOne" href="https://chrisdemey.github.io/restaurant-css-framework/" target="_blank"></a>
+        <a data-aos="fade-down-left" data-aos-duration="1100" class="caseTwo" href="https://chrisdemey.github.io/TD2-cssgrid/" target="_blank"></a>
+        <a data-aos="fade-right" data-aos-duration="1100" class="caseThree" href="https://cleobuck.github.io/allezcinev3/" target="_blank"></a>
+        <a data-aos="fade-left" data-aos-duration="1100" class="caseFour" href="https://chrisdemey.github.io/Hitman-site/" target="_blank"></a>
         <section><p>Cette section sera régulièrement mise à jour</p></section>
     </article>
 
     <article class="Contact" id="mySocial">
-        <a href="https://www.facebook.com/christophe.demey.7" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
-        <a href="https://www.linkedin.com/in/christophe-demey/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
-        <a href="https://github.com/ChrisDemey" target="_blank"><i class="fab fa-github-square fa-4x"></i></a>
-        <a href="https://codepen.io/chrisdemey" target="_blank"><i class="fab fa-codepen fa-4x"></i></a>
-        <a href="https://twitter.com/DemeyChristophe" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
-        <a href="mailto:demey.christophe.dc@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="https://www.facebook.com/christophe.demey.7" target="_blank"><i class="fab fa-facebook-square fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="https://www.linkedin.com/in/christophe-demey/" target="_blank"><i class="fab fa-linkedin fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="https://github.com/ChrisDemey" target="_blank"><i class="fab fa-github-square fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="https://codepen.io/chrisdemey" target="_blank"><i class="fab fa-codepen fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="https://twitter.com/DemeyChristophe" target="_blank"><i class="fab fa-twitter-square fa-4x"></i></a>
+        <a data-aos="fade-up" data-aos-duration="600" href="mailto:demey.christophe.dc@gmail.com" target="_blank"><i class="fas fa-envelope-square fa-4x"></i></a>
     </article>
     
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.scrollie.min.js"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init()
+    </script>
 </body>
 
 </html>

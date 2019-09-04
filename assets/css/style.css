@@ -74,6 +74,7 @@ nav {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  z-index: 5;
 }
 
 nav a {
@@ -141,7 +142,7 @@ article h3, h2, h1 {
 }
 
 .Name h1 {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
 }
 
@@ -363,6 +364,12 @@ article h3, h2, h1 {
 @media screen and (max-width: 360px) {
   nav .changingText {
     height: 45px;
+    font-size: 20px;
+  }
+  .Name h1 {
+    font-size: 30px;
+  }
+  .Name h2 {
     font-size: 20px;
   }
   .Describe p {
